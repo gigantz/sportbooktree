@@ -1,0 +1,77 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+* {
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+ul {
+    color: #fff;
+    width: 100%;
+    padding:0;
+    margin: 0;
+}
+
+ul.sport-list {
+    background-color: #263238;
+}
+
+ul.country-list, ul.league-list {
+  display: none;
+}
+
+ul.country-list.expanded, ul.league-list.expanded {
+  display: block;
+}
+
+ul.country-list {
+    background-color: #2f3d45;
+}
+
+ul.country-list span {
+    padding-left: 2%;
+}
+
+ul.league-list {
+    background-color: #354650;
+}
+
+ul.league-list span {
+    padding-left: 5%;
+}
+
+li {
+    display: block;
+    cursor: pointer;
+    outline: none;
+}
+
+li div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+li div:hover {
+    background-color: rgba(255,255,255,0.03)
+}
+
+li div span:nth-child(2) {
+    width: 10%;
+    font-style: italic;
+}
+
+table {
+  background-color: #fff;
+  color: #444;
+  width: 100%;
+}
+
+tr th, tr td  {
+    padding: 10px;
+    border: 1px #000 solid;
+}
