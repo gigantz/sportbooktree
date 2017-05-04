@@ -1,1 +1,5 @@
-#Sportbook Tree
+## Sportbook Tree
+```
+npm install
+npm start
+```
